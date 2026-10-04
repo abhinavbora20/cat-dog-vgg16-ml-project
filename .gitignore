@@ -3,7 +3,6 @@ dataset/
 PetImages/
 *.jpg
 *.jpeg
-*.png
 
 # Google Colab / Jupyter temporary files
 .ipynb_checkpoints/
