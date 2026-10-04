@@ -1,0 +1,55 @@
+
+CAT vs DOG CLASSIFICATION PROJECT
+=================================
+
+DATASET
+-------
+Total usable images: 24,998
+Training images: 19,998
+Validation images: 2,500
+Test images: 2,500
+Classes: Cat, Dog
+
+MODEL
+-----
+Architecture: VGG16
+Approach: Transfer Learning + Fine-Tuning
+Input size: 224 x 224 x 3
+
+BASELINE MODEL
+--------------
+Test accuracy: 97.52%
+Test loss: 0.0656
+
+FINE-TUNED MODEL
+----------------
+Test accuracy: 98.68%
+Test loss: 0.0364
+Precision: 98.95%
+Recall: 98.40%
+
+CONFUSION MATRIX
+----------------
+                Predicted
+             Cat       Dog
+Actual Cat   1237       13
+Actual Dog     20     1230
+
+CUSTOM FEATURE
+--------------
+Confidence-Based Prediction Feedback
+
+The system displays:
+- Predicted class
+- Confidence percentage
+- High / Moderate / Low confidence
+
+ADDITIONAL SAMPLE TEST
+----------------------
+10 images tested
+10 correct predictions
+Sample accuracy: 100%
+
+NOTE:
+The official overall test accuracy is 98.68%.
+The 100% result is only from the additional 10-image test.
